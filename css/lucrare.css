@@ -1,0 +1,39 @@
+ul {
+  list-style-type: none;
+  margin: 10;
+  padding: 0;
+  overflow: hidden;
+  background-color: #cc3300;
+}
+
+li {
+  float: left;
+}
+
+ol > li {
+	float: none;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #0000ff (blue) on hover */
+.active:hover {
+  background-color: #0000ff;
+  border-radius: 8px;
+}
+table, th, td  {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+body {
+	background-color: yellow;
+}
+
+ul {
+	width: 40%;
+}
